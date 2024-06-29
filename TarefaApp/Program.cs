@@ -1,10 +1,11 @@
 using Microsoft.EntityFrameworkCore;
+using TarefaApp.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<DbContext>
+builder.Services.AddDbContext<AppDbContext>
     (options => options.UseSqlServer
     (builder.Configuration.GetConnectionString("DefaultConnection")));
 
