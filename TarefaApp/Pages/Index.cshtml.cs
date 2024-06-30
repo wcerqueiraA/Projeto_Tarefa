@@ -1,20 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using TarefaApp.Context;
+using TarefaApp.Models;
 
 namespace TarefaApp.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly AppDbContext _context;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel(AppDbContext context)
         {
-            _logger = logger;
+            _context = context;
         }
 
-        public void OnGet()
-        {
+        public IList<Tarefa> Tarefa { get; set; } = default!;
 
+        public async Task OnGetAsync()
+        {
+            if (_context.Tarefas != null)
+            {
+                Tarefa = await _context.Tarefas.ToListAsync();
+            }
         }
     }
 }

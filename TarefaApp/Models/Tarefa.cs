@@ -10,6 +10,7 @@ namespace TarefaApp.Models
         [Required]
         public string Descricao { get; set; }
 
+        [DataType(DataType.Date)]
         public DateTime Data { get; set; }
     }
 }
