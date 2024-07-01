@@ -40,23 +40,6 @@ Dependências
     - wwwroot/: Contém arquivos estáticos como CSS e JavaScript.
     - _Layout.cshtml: Layout padrão usado por todas as páginas, definindo a estrutura comum, estilos e scripts compartilhados.
 
-## Componentes Principais
-Index.cshtml.cs
-
-    IndexModel: Lógica por trás da página inicial que lista todas as tarefas cadastradas.
-
-Criar.cshtml.cs
-
-    CreateModel: Lógica para adicionar uma nova tarefa ao sistema.
-
-Editar.cshtml.cs
-
-    EditModel: Lógica para editar uma tarefa existente.
-
-Excluir.cshtml.cs
-
-    DeleteModel: Lógica para excluir uma tarefa.
-
 ## Funcionalidades
 
     Adicionar, editar, visualizar e excluir tarefas.
