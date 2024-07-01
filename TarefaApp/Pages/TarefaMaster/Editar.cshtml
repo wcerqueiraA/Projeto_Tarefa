@@ -2,38 +2,42 @@
 @model TarefaApp.Pages.TarefaMaster.EditModel
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
 
-<h1>Edit</h1>
-
-<h4>Tarefa</h4>
-<hr />
+<div class="box" id="heading">
+    <h1>Editar</h1>
+</div>
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
+        <div class="box">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Tarefa.Id" />
             <div class="form-group">
-                <label asp-for="Tarefa.Descricao" class="control-label"></label>
+                <label class="control-label">Descrição</label>
                 <input asp-for="Tarefa.Descricao" class="form-control" />
                 <span asp-validation-for="Tarefa.Descricao" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Tarefa.Data" class="control-label"></label>
+                <label class="control-label">Data</label>
                 <input asp-for="Tarefa.Data" class="form-control" />
                 <span asp-validation-for="Tarefa.Data" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <br />
+            <div class="form-group mt-2">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
             </div>
         </form>
+        <hr />
+        <div class="space">
+            <a asp-page="../Index" class="btn btn-success">Voltar</a>
+        </div>
+        </div>
     </div>
 </div>
 
-<div>
-    <a asp-page="../Index">Back to List</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

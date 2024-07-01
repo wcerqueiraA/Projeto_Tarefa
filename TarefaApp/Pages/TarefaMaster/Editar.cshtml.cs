@@ -66,7 +66,7 @@ namespace TarefaApp.Pages.TarefaMaster
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
 
         private bool TarefaExists(int id)

@@ -65,9 +65,7 @@ G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\staticwebass
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.TarefaApp.props
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.TarefaApp.props
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\staticwebassets.pack.json
-G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\scopedcss\bundle\TarefaApp.styles.css
-G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\scopedcss\projectbundle\TarefaApp.bundle.scp.css
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\TarefaApp.csproj.Up2Date
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\TarefaApp.dll
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\refint\TarefaApp.dll
@@ -252,3 +250,5 @@ G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\bin\Debug\net7.0\ru\Microsoft
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+G:\Wellington\Videos\Portfolio\TarefaApp\TarefaApp\obj\Debug\net7.0\scopedcss\projectbundle\TarefaApp.bundle.scp.css

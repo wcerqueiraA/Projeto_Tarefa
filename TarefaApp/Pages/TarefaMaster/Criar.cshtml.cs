@@ -39,7 +39,7 @@ namespace TarefaApp.Pages.TarefaMaster
             _context.Tarefas.Add(Tarefa);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index");
         }
     }
 }

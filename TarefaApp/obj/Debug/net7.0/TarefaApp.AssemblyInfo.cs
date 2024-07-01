@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TarefaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26f0f954716736cc14ae7419b734619b423db05a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fe1d47a20a7278de8012459a51744beb19c4472")]
 [assembly: System.Reflection.AssemblyProductAttribute("TarefaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TarefaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

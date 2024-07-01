@@ -34,16 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXENyZWF0ZS5jc2h0bWw=
+[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXENyaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXERlbGV0ZS5jc2h0bWw=
+[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXEVkaXQuY3NodG1s
+[G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/TarefaMaster/Excluir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFyZWZhTWFzdGVyXEV4Y2x1aXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [G:/Wellington/Videos/Portfolio/TarefaApp/TarefaApp/Pages/_ViewImports.cshtml]

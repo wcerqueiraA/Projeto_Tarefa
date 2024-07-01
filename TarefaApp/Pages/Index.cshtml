@@ -4,39 +4,65 @@
 @{
     ViewData["Title"] = "Index";
 }
+<div class="box" id="heading">
+    <h1>Tarefa App</h1>
+    <hr />
+</div>
 
-<h1>Index</h1>
-
-<p>
-    <a asp-page="TarefaMaster/Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Tarefa[0].Descricao)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tarefa[0].Data)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Tarefa)
-        {
+<div class="box">
+    <table class="table">
+        <thead>
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Descricao)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Data)
-                </td>
-                <td>
-                    <a asp-page="TarefaMaster/Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-page="TarefaMastergi/Delete" asp-route-id="@item.Id">Delete</a>
-                </td>
+                <th>
+                    Status
+                </th>
+                <th>
+                    Tarefa
+                </th>
+                <th>
+                    Data
+                </th>
+                <th>
+                    Ações
+                </th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @if (Model.Tarefa != null && Model.Tarefa.Any())
+            {
+                @foreach (var item in Model.Tarefa)
+                {
+                    <tr class="item">
+                        <td>
+                            <input type="checkbox"/>
+                        </td>
+                        <td>
+                            @item.Descricao
+                        </td>
+                        <td>
+                            @item.Data.ToString("d")
+                        </td>
+                        <td>
+                            <a asp-page="TarefaMaster/Editar" asp-route-id="@item.Id">Editar</a> |
+                            <a asp-page="TarefaMaster/Excluir" asp-route-id="@item.Id">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4" class="text-center">
+                        Não há tarefas adicionadas.
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="space">  
+        <a asp-page="TarefaMaster/Criar" class="btn btn-primary">Criar</a>
+    </div>
+    <br />
+
+</div>
