@@ -72,11 +72,11 @@ Excluir.cshtml.cs
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias. Para isso, siga os passos:
 
-    Fork o repositório.
-    Crie uma branch com a sua feature (git checkout -b feature/MinhaFeature).
-    Commit suas mudanças (git commit -am 'Adiciona nova feature').
-    Push para a branch (git push origin feature/MinhaFeature).
-    Crie um novo Pull Request.
+    1. Fork o repositório.
+    2. Crie uma branch com a sua feature (git checkout -b feature/MinhaFeature).
+    3. Commit suas mudanças (git commit -am 'Adiciona nova feature').
+    4. Push para a branch (git push origin feature/MinhaFeature).
+    5. Crie um novo Pull Request.
 
 ## Direitos Autorais e Licença
 
