@@ -23,7 +23,6 @@ namespace TarefaApp.Pages.TarefaMaster
         public Tarefa Tarefa { get; set; } = default!;
         
 
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
           if (!ModelState.IsValid || _context.Tarefas == null || Tarefa == null)
