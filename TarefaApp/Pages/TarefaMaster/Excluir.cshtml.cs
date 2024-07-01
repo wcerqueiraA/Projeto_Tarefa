@@ -1,7 +1,3 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -12,9 +8,9 @@ namespace TarefaApp.Pages.TarefaMaster
 {
     public class DeleteModel : PageModel
     {
-        private readonly TarefaApp.Context.AppDbContext _context;
+        private readonly AppDbContext _context;
 
-        public DeleteModel(TarefaApp.Context.AppDbContext context)
+        public DeleteModel(AppDbContext context)
         {
             _context = context;
         }
