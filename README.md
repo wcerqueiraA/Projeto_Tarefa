@@ -10,6 +10,7 @@ O TarefaApp é uma aplicação simples para gerenciar tarefas, permitindo aos us
 
     - Linguagem: C#
     - .NET Core 7.0
+    - ASP.NET
     - SQLServer
     - HTML 5
     - Css 3
