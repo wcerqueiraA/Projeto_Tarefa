@@ -9,6 +9,11 @@ Dependências
 
     - Linguagem: C#
     - .NET Core 7.0
+    - SQLServer
+    - HTML 5
+    - Css 3
+    - Bootstrap
+    - Javascript
     - Visual Studio 2022 para desenvolvimento
     - SQL Server Management Studio 2022
 
