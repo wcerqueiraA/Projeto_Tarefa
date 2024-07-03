@@ -5,7 +5,8 @@ Este projeto é uma aplicação web desenvolvida em ASP.NET Core Razor Pages par
 ## Descrição
 
 O TarefaApp é uma aplicação simples para gerenciar tarefas, permitindo aos usuários criar, visualizar, editar e excluir tarefas com descrição e data associada.
-Dependências
+
+## Dependências
 
     - Linguagem: C#
     - .NET Core 7.0
